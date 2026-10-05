@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Donat Manis</title>
+    <style>
+        /* Desain & Gaya (CSS) */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #fffaf0; 
+        }
+        header { 
+            background-color: #ff6b81; 
+            color: white; 
+            padding: 20px 50px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 { margin: 0; font-size: 28px; letter-spacing: 1px; }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 20px; 
+            font-weight: bold; 
+            font-size: 16px;
+        }
+        nav a:hover { text-decoration: underline; color: #ffeaa7; }
+        
+        .hero { 
+            text-align: center; 
+            padding: 100px 20px; 
+            background-color: #ffeaa7; 
+            color: #2d3436; 
+        }
+        .hero h2 { font-size: 48px; margin-bottom: 10px; color: #e15f41; }
+        .hero p { font-size: 20px; margin-bottom: 30px; color: #636e72;}
+        .btn { 
+            background-color: #ff6b81; 
+            color: white; 
+            padding: 15px 35px; 
+            text-decoration: none; 
+            font-size: 18px; 
+            border-radius: 30px; 
+            font-weight: bold; 
+            transition: 0.3s;
+        }
+        .btn:hover { background-color: #ff4757; transform: scale(1.05); }
+        
+        .menu { padding: 60px 20px; text-align: center; }
+        .menu h3 { font-size: 36px; color: #e15f41; margin-bottom: 40px; }
+        .cards { 
+            display: flex; 
+            justify-content: center; 
+            gap: 30px; 
+            flex-wrap: wrap; 
+        }
+        .card { 
+            background: white; 
+            border-radius: 15px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+            padding: 20px; 
+            width: 260px; 
+            text-align: center; 
+            transition: transform 0.3s; 
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card img { 
+            width: 100%; 
+            border-radius: 10px; 
+            height: 180px; 
+            object-fit: cover; 
+        }
+        .card h4 { font-size: 22px; margin: 15px 0 10px; color: #2d3436; }
+        .card p { color: #636e72; font-size: 15px; margin-bottom: 15px; line-height: 1.5; }
+        .price { font-size: 22px; font-weight: bold; color: #ff6b81; }
+        
+        footer { 
+            background-color: #2d3436; 
+            color: white; 
+            text-align: center; 
+            padding: 30px 20px; 
+            margin-top: 40px; 
+        }
+        footer p { margin: 5px 0; color: #b2bec3; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍩 DonatManis</h1>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Donat Lezat Setiap Hari!</h2>
+    <p>Dibuat dengan bahan premium, penuh cinta, dan aneka rasa yang bikin nagih.</p>
+    <a href="#menu" class="btn">Pesan Sekarang</a>
+</section>
+
+<section id="menu" class="menu">
+    <h3>Menu Favorit Kami</h3>
+    <div class="cards">
+        <!-- Menu 1 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=80" alt="Donat Cokelat">
+            <h4>Choco Crunch</h4>
+            <p>Limpahan cokelat cair premium dengan taburan kacang krispi renyah.</p>
+            <div class="price">Rp 15.000</div>
+        </div>
+        <!-- Menu 2 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1570458436416-b8f3915cb080?w=500&q=80" alt="Donat Strawberry">
+            <h4>Berry Sprinkles</h4>
+            <p>Glaze strawberry manis dengan taburan sprinkle warna-warni ceria.</p>
+            <div class="price">Rp 12.000</div>
+        </div>
+        <!-- Menu 3 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?w=500&q=80" alt="Donat Matcha">
+            <h4>Matcha Delight</h4>
+            <p>Paduan donat lembut dengan sentuhan rasa matcha asli dari Jepang.</p>
+            <div class="price">Rp 14.000</div>
+        </div>
+    </div>
+</section>
+
+<footer id="kontak">
+    <p>&copy; 2026 DonatManis Semarang. Dibuat khusus untuk pecinta manis.</p>
+    <p>Hubungi Kami: halo@donatmanis.com | WA: 0812-3456-7890</p>
+    <p>📍 Jl. Pandanaran, Kota Semarang, Jawa Tengah</p>
+</footer>
+
+</body>
+</html>
