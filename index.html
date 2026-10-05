@@ -191,16 +191,16 @@
 
   <script>
     const defaultData = [
-      { id: 1, name: 'Redvelvet Cream Cheese', category: 'Bomboloni', price: 18000, image: 'https://images.unsplash.com/photo-1551024506-0baa8740812d?w=400', desc: 'Isian cream cheese tebal lumer' },
-      { id: 2, name: 'Double Choco', category: 'Bomboloni', price: 15000, image: 'https://images.unsplash.com/photo-1626244498363-d3090632b7e6?w=400', desc: 'Coklat luar dalam super nyoklat' },
-      { id: 3, name: 'Cookies & Cream', category: 'Bomboloni', price: 17000, image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=400', desc: 'Isian krim vanilla dengan biskuit Oreo' },
-      { id: 4, name: 'Matcha', category: 'Bomboloni', price: 16000, image: 'https://images.unsplash.com/photo-1601000632517-578ce8ff6ea7?w=400', desc: 'Krim matcha Jepang asli' },
-      { id: 5, name: 'Strawberry', category: 'Bomboloni', price: 15000, image: 'https://images.unsplash.com/photo-1612240498936-65f5101365d2?w=400', desc: 'Selai stroberi segar manis asam' },
-      { id: 6, name: 'Tiramisu', category: 'Bomboloni', price: 17000, image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400', desc: 'Rasa kopi dan mascarpone klasik' },
-      { id: 7, name: 'Donat Vanilla', category: 'Donat', price: 10000, image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400', desc: 'Glaze vanilla klasik' },
-      { id: 8, name: 'Donat Coklat', category: 'Donat', price: 12000, image: 'https://images.unsplash.com/photo-1527515862127-a4fc05baf7a5?w=400', desc: 'Coklat lumer dengan taburan ceres' },
-      { id: 9, name: 'Donat Tiramisu', category: 'Donat', price: 13000, image: 'https://images.unsplash.com/photo-1632516766446-c9fb25ef3b17?w=400', desc: 'Topping tiramisu lembut' },
-      { id: 10, name: 'Donat Matcha', category: 'Donat', price: 13000, image: 'https://images.unsplash.com/photo-1558485292-8094760fc5f2?w=400', desc: 'Topping glaze matcha asli' }
+      { id: 1, name: 'Redvelvet Cream Cheese', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1551024506-0baa8740812d?w=400', desc: 'Isian cream cheese tebal lumer' },
+      { id: 2, name: 'Double Choco', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1626244498363-d3090632b7e6?w=400', desc: 'Coklat luar dalam super nyoklat' },
+      { id: 3, name: 'Cookies & Cream', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=400', desc: 'Isian krim vanilla dengan biskuit Oreo' },
+      { id: 4, name: 'Matcha', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1601000632517-578ce8ff6ea7?w=400', desc: 'Krim matcha Jepang asli' },
+      { id: 5, name: 'Strawberry', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1612240498936-65f5101365d2?w=400', desc: 'Selai stroberi segar manis asam' },
+      { id: 6, name: 'Tiramisu', category: 'Bomboloni', price: 7000, image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400', desc: 'Rasa kopi dan mascarpone klasik' },
+      { id: 7, name: 'Donat Vanilla', category: 'Donat', price: 7000, image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400', desc: 'Glaze vanilla klasik' },
+      { id: 8, name: 'Donat Coklat', category: 'Donat', price: 7000, image: 'https://images.unsplash.com/photo-1527515862127-a4fc05baf7a5?w=400', desc: 'Coklat lumer dengan taburan ceres' },
+      { id: 9, name: 'Donat Tiramisu', category: 'Donat', price: 7000, image: 'https://images.unsplash.com/photo-1632516766446-c9fb25ef3b17?w=400', desc: 'Topping tiramisu lembut' },
+      { id: 10, name: 'Donat Matcha', category: 'Donat', price: 7000, image: 'https://images.unsplash.com/photo-1558485292-8094760fc5f2?w=400', desc: 'Topping glaze matcha asli' }
     ];
 
     let products = JSON.parse(localStorage.getItem('manisdonat_products')) || defaultData;
@@ -335,7 +335,7 @@
 
     function sendToWhatsApp() {
       // ---> UBAH NOMOR WHATSAPP ANDA DI SINI (Baris 248) <---
-      const phone = "082265575905"; 
+      const phone = "083108770889"; 
       
       let msg = `*Jodunt Doughnut, SAYA MAU PESAN!* 🍩\n\n`;
       msg += `*Nama Pemesan:* ${checkoutData.name}\n`;
