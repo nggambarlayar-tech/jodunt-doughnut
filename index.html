@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ManisDonat - E-Commerce</title>
+  <title>jodunt doughnut</title>
   <script src="https://cdn.tailwindcss.com"></script>
   
   <!-- PERBAIKAN: Konfigurasi Tailwind harus menggunakan tag <script> -->
@@ -40,7 +40,7 @@
   <nav class="bg-white shadow-md sticky top-0 z-40">
     <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
       <div class="flex items-center gap-4">
-        <h1 class="text-2xl font-bold text-brand-brown cursor-pointer" onclick="switchView('home')">🍩 ManisDonat</h1>
+        <h1 class="text-2xl font-bold text-brand-brown cursor-pointer" onclick="switchView('home')"> Jodunt Doughnut</h1>
         <button onclick="switchView('admin')" class="text-sm font-medium text-gray-500 hover:text-brand-brown underline">Pengaturan Menu (Admin)</button>
       </div>
       <!-- Tombol Keranjang -->
@@ -151,7 +151,7 @@
     <div class="bg-white rounded-xl shadow-2xl w-full max-w-md overflow-hidden flex flex-col">
       <div id="receipt-content" class="p-6 bg-white text-gray-800">
         <div class="text-center mb-4 border-b-2 border-dashed border-gray-300 pb-4">
-          <h2 class="text-2xl font-bold text-brand-brown mb-1">🍩 ManisDonat</h2>
+          <h2 class="text-2xl font-bold text-brand-brown mb-1">Jodunt Doughnut</h2>
           <p class="text-sm text-gray-500">Struk Pesanan Digital</p>
           <p class="text-sm text-gray-500" id="receipt-date"></p>
         </div>
@@ -335,9 +335,9 @@
 
     function sendToWhatsApp() {
       // ---> UBAH NOMOR WHATSAPP ANDA DI SINI (Baris 248) <---
-      const phone = "6281234567890"; 
+      const phone = "082265575905"; 
       
-      let msg = `*HALO MANISDONAT, SAYA MAU PESAN!* 🍩\n\n`;
+      let msg = `*Jodunt Doughnut, SAYA MAU PESAN!* 🍩\n\n`;
       msg += `*Nama Pemesan:* ${checkoutData.name}\n`;
       msg += `*No WhatsApp:* ${checkoutData.wa}\n`;
       msg += `*Alamat Pengiriman:* ${checkoutData.address}\n`;
